@@ -1,0 +1,66 @@
+body{
+	background-color: #8585ad;	
+}
+
+.monster {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    width: 10em;
+    height: 15em;
+}
+.ear {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: .8em;
+    height: 3em;
+}
+.ear_right{  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #ff471a;  
+}
+.ear_left{ width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #ff471a;
+}
+
+
+.body {
+    margin: 14% 0 0;
+    width: 10em;
+    height: 10em;
+    background: #ff471a;
+    border-radius: 25%;
+    box-shadow: inset -.1em -1em rgba(0,0,0,.1);
+    box-shadow: inset -.1em -1em rgba(0,0,0,.1);
+}
+
+.eye {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    top: 20%;
+    background: White ;
+    border-radius: 25%;
+}
+
+.iris { position: absolute;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: #000;
+    border-radius: 25%;}
+
+.shadow {
+    height: 20px;
+    width: 70px;
+    border-radius: 100px;
+    margin: -15px 0 0 30%;
+    position: absolute;
+}
+
