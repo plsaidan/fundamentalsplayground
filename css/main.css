@@ -1,7 +1,44 @@
 body{
 	background-color: #8585ad;	
 }
+/* Nav Bar */
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #40bf80;
+}
 
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: inline-block;
+	color: purple;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color: #fff
+}
+
+
+
+
+.project {
+	width: 200px;
+    height: 200px;
+    border: 4px black;
+}
+
+
+
+
+/*CSS For Monster */
 .monster {
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
